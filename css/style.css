@@ -47,8 +47,6 @@ ul {
     padding: 0 10px;
 }
 
-.header {}
-
 .header__top {
     display: flex;
     justify-content: space-between;
@@ -56,7 +54,9 @@ ul {
     height: 100px;
 }
 
-.header__nav {}
+.header__logo {
+    margin-left: 135px;
+}
 
 .list {
     display: flex;
@@ -93,7 +93,7 @@ ul {
     position: relative;
 }
 
-.header__content::before {
+.header__content::after {
     content: "";
     background-image: url(../images/decor.svg);
     width: 50px;
@@ -114,5 +114,119 @@ ul {
 
 .title-descr {
     font-size: 24px;
+    margin-bottom: 45px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.concept {
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+
+.concept__inner {
+    max-width: 900px;
+    margin-left: auto;
+}
+
+.section__title {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: #F402A2;
+    font-size: 18px;
+    font-family: 'Corporate-A-Bold';
+}
+
+.concept__text {
+    font-size: 24px;
+    margin-bottom: 25px;
+    line-height: 120%;
+}
+
+.premier {
+    margin-bottom: 150px;
+}
+
+.premier__inner {
+    display: flex;
+    gap: 60px;
+}
+
+.premier__text {
+    margin-bottom: 23px;
+}
+
+premier__img {
+    margin-bottom: 20px;
+}
+
+.premier__btn {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 120%;
+    color: #F402A2;
+    font-family: 'Corporate-A-Bold';
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px;
+    border: 1px solid #F402A2;
+    transition: all.3s;
+}
+
+.premier__btn:hover {
+    color: #53A1CB;
+    border: 1px solid #53A1CB;
+}
+
+.video {
+    margin-bottom: 150px;
+}
+
+.video__img {
+    margin-bottom: 25px;
+}
+
+.video__btn {
+    font-family: 'Corporate-A-Bold';
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    gap: 10px;
+    font-size: 18px;
+    line-height: 120%;
+    color: #F402A2;
+    padding: 14px;
+    border: 1px solid #F402A2;
+    transition: all.3s;
+}
+
+.video__btn span {
+    padding-top: 2px;
+}
+
+.video__btn:hover {
+    color: #53A1CB;
+    border: 1px solid #53A1CB;
+}
+
+.video__btn path {
+    transition: all.3s;
+}
+
+.video__btn:hover path {
+    fill: #53A1CB;
+}
+
+.design__interior {
+    display: flex;
+    flex-direction: column;
 }
