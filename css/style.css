@@ -162,7 +162,7 @@ ul {
     margin-bottom: 23px;
 }
 
-premier__img {
+.premier__img {
     margin-bottom: 20px;
 }
 
@@ -226,7 +226,24 @@ premier__img {
     fill: #53A1CB;
 }
 
-.design__interior {
+.disign {
+    margin-bottom: 150px;
+}
+
+.disign_inner {
     display: flex;
-    flex-direction: column;
+    gap: 60px;
+}
+
+#disign_interior-img-2 {
+    padding-bottom: 88px;
+}
+
+.decor__before-footer {
+    background-image: url(../images/decor_after-footer.png);
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 150px;
 }
